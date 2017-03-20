@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import { Router, Route, hashHistory } from 'react-router';
+import ExampleBrowser from './examples/ExampleBrowser';
+
 
 ReactDOM.render(
-  <App />,
+  <Router history={hashHistory}>
+    <Route path="/(:slug)" component={ExampleBrowser} />
+  </Router>,
   document.getElementById('root')
 );
