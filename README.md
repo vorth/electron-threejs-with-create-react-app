@@ -1,4 +1,4 @@
-#bootstrap create-react-app and electron and three.js
+# React, Three.js, and Electron
 
 This is a fork of [electron-with-create-react-app](https://github.com/csepulv/electron-with-create-react-app).  In this fork, I am integrating three.js in the form of [react-three-renderer-example](https://github.com/toxicFork/react-three-renderer-example).
 
@@ -9,8 +9,8 @@ To run the application:
     npm install
     npm start
 
-## from the original README.md
+## Provenance
 
-Code repo for [post on freeCodeCamp](https://medium.freecodecamp.com/building-an-electron-application-with-create-react-app-97945861647c#.ze6c9qin1) for using Electron with React.
+This [post on freeCodeCamp](https://medium.freecodecamp.com/building-an-electron-application-with-create-react-app-97945861647c#.ze6c9qin1) illustrated using [Electron](https://electron.atom.io/) with [React](https://facebook.github.io/react/), taking advantage of `create-react-app`.  I have merged some of the branches from the repo for that project.
 
-I have merged the branch that uses `npm start` instead of `npm run dev`. (change submitted by [vcarl](https://github.com/vcarl)) Details are in this [pull request](https://github.com/csepulv/electron-with-create-react-app/pull/2)
+The other major input was [react-three-renderer-example](https://github.com/toxicFork/react-three-renderer-example), which illustrates a very nice integration of [three.js](https://threejs.org/), the popular WebGL library, with [React](https://facebook.github.io/react/).
