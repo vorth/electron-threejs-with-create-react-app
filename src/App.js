@@ -37,12 +37,14 @@ class App extends Component {
             <div className="App">
                 <div className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
-                    <h2>Welcome to React/Electron</h2>
+                    <h2>Welcome to React+Electron+Three.js</h2>
                 </div>
                 <p className="App-intro">
-                    Hello Electron!
+                    This application illustrates the integration of three.js and React,
+                    running in Electron.  Three.js is integrated with React via 
+                    react-three-renderer, and Electron is integrated with React via
+                    electron-with-create-react-app.
                 </p>
-                {this.renderFiles()}
 
             </div>
         );
